@@ -1,0 +1,21 @@
+.image-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 10px;
+  }
+  .image-container img{
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 3;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+  }
+  

@@ -1,0 +1,88 @@
+.Navbar {
+	background-color: rgb(7, 68, 7);
+	height: 80px;
+	z-index: 99;
+	color: white;
+	text-transform: uppercase;
+	top: 0;
+	position: sticky;
+     
+
+	.nav-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+	.nav-center {
+		margin-left: 153px;
+		.logo{
+			color: white;
+		}
+	}
+	.nav-left {
+		.nav-menu {
+			padding: 10px;
+			margin: 5px;
+			color: white;
+			text-decoration: none;
+		}
+	}
+	.nav-right {
+		.nav-logos {
+			padding: 10px;
+			margin: 5px;
+			color: white;
+		}
+	}
+	.containerr {
+		min-height: 100vh;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		text-align: center;
+	}
+
+	.containerr div > p span {
+		color: red;
+	}
+
+	p {
+		position: relative;
+		top: 30px;
+	}
+
+	p a {
+		color: black;
+		text-decoration: none;
+	}
+
+	button {
+		cursor: pointer;
+		border: 0;
+		border-radius: 4px;
+		font-weight: 600;
+		margin: 0 10px;
+		width: 150px;
+		padding: 10px 0;
+		box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+		transition: 0.4s;
+	}
+
+	.reg {
+		color: white;
+		background-color: rgb(21, 66, 7);
+	}
+
+	.log {
+		color: rgb(10, 90, 23);
+		background-color: rgba(255, 255, 255, 1);
+		border: 1px solid rgb(4, 97, 46);
+	}
+
+	button:hover {
+		color: white;
+		box-shadow: 0 0 20px rgba(5, 94, 9, 0.6);
+		background-color: rgb(2, 51, 16);
+	}
+}
